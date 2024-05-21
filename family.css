@@ -1,0 +1,165 @@
+/* navigation.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .navbar {
+    background-color: #333;
+    flex-grow: 1;
+    text-align: right;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #e20c0c;
+    color: black;
+  }
+  
+  #active {
+    background-color:#af4c4c;
+  }
+  
+.slide {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .slide .div {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid;
+    border-color: #fffbfb;
+    background: linear-gradient(180deg, rgb(148.4, 82.24, 82.24) 66.67%, rgba(245.44, 232.48, 232.48, 0) 84.82%);
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .slide .overlap {
+    position: absolute;
+    width: 660px;
+    height: 413px;
+    top: 111px;
+    left: 84px;
+    background-image: url(./img/rectangle-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .slide .text {
+    position: absolute;
+    width: 1px;
+    top: 48px;
+    left: 322px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .rectangle {
+    width: 330px;
+    height: 422px;
+    left: 84px;
+    position: absolute;
+    top: 574px;
+    object-fit: cover;
+  }
+  
+  .slide .overlap-group {
+    position: absolute;
+    width: 505px;
+    height: 116px;
+    top: 154px;
+    left: 847px;
+  }
+  
+  .slide .text-wrapper {
+    position: absolute;
+    width: 477px;
+    top: 0;
+    left: 28px;
+    font-family: "Days One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 90px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .line {
+    position: absolute;
+    width: 441px;
+    height: 14px;
+    top: 102px;
+    left: 0;
+  }
+  
+  .slide .overlap-group-2 {
+    position: absolute;
+    width: 958px;
+    height: 528px;
+    top: 283px;
+    left: 799px;
+  }
+  
+  .slide .img {
+    position: absolute;
+    width: 7px;
+    height: 1px;
+    top: 12px;
+    left: 69px;
+    object-fit: cover;
+  }
+  
+  .slide .ini-keluarga-saya {
+    position: absolute;
+    width: 958px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .rectangle-2 {
+    width: 261px;
+    height: 398px;
+    left: 459px;
+    position: absolute;
+    top: 574px;
+    object-fit: cover;
+  }
+  

@@ -1,0 +1,135 @@
+/* navigation.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .navbar {
+    background-color: #333;
+    flex-grow: 1;
+    text-align: right;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #e20c0c;
+    color: black;
+  }
+  
+  #active {
+    background-color: #af4c4c;
+  }
+  
+.slide {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .slide .div {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid;
+    border-color: #fffbfb;
+    background: linear-gradient(180deg, rgb(148.4, 82.24, 82.24) 66.67%, rgba(245.44, 232.48, 232.48, 0) 84.82%);
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .slide .overlap-group {
+    position: absolute;
+    width: 1920px;
+    height: 116px;
+    top: 95px;
+    left: 0;
+  }
+  
+  .slide .text-wrapper {
+    position: absolute;
+    width: 586px;
+    top: 0;
+    left: 114px;
+    font-family: "Days One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 90px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .line {
+    position: absolute;
+    width: 1920px;
+    height: 19px;
+    top: 97px;
+    left: 0;
+  }
+  
+  .slide .logo-whatsapp-logos {
+    position: absolute;
+    width: 164px;
+    height: 176px;
+    top: 288px;
+    left: 144px;
+    object-fit: cover;
+  }
+  
+  .slide .cuisenaire-rods-in {
+    position: absolute;
+    width: 176px;
+    height: 168px;
+    top: 600px;
+    left: 114px;
+    object-fit: cover;
+  }
+  
+  .slide .text-wrapper-2 {
+    position: absolute;
+    top: 266px;
+    left: 455px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .text-wrapper-3 {
+    position: absolute;
+    top: 599px;
+    left: 416px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
